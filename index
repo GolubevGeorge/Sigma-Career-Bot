@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>SIGMA SOFTWARE SOFTWARE</title>
+  <style>
+      div.logo{
+      padding:15pt;
+        display: flex;
+    }
+    h1{
+      color:black;
+      margin:auto;
+    }
+    }
+</style>
+ </head>
+ <body>
+   
+   <div class="logo">
+     <img src="https://career.sigma.software/content/themes/sigma/assets/img/sigma.svg" alt="logo">
+     <h1>ПРИЄДНУЙСЯ ДО SIGMA SOFTWARE!</h1>
+   </div>
+</body>
+  
+<script>
+window.senderCallback = function() {
+    SenderWidget.init({
+      companyId: "i237453094"
+    });
+  }
+</script>
+<script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://widget.sender.mobi/build/init.js";
+    fjs.parentNode.insertBefore(js, fjs, 'sender-widget');
+  })(document, 'script');
+</script>
+</html>
